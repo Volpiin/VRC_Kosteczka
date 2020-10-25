@@ -10,16 +10,16 @@ BuildReport:
   m_Summary:
     buildStartTime:
       serializedVersion: 2
-      ticks: 637390883474912210
+      ticks: 637392317482342216
     buildGUID: 00000000000000000000000000000000
     platformName: Win64
     platformGroupName: Standalone
     options: 16
     assetBundleOptions: 32
     outputPath: C:/Users/pawel/AppData/Local/Temp/DefaultCompany/VRC_Kosteczka/customscene2.vrcw
-    crc: 3994272341
-    totalSize: 99891
-    totalTimeTicks: 138910173
+    crc: 1671808864
+    totalSize: 79244
+    totalTimeTicks: 166731809
     totalErrors: 0
     totalWarnings: 0
     buildType: 1
@@ -28,19 +28,19 @@ BuildReport:
   - path: C:/Users/pawel/Documents/VRChat Contento/VRC_Kosteczka/customscene2.vrcw/BuildPlayer-VRC_Kosteczka
     role: Scene
     id: 0
-    totalSize: 37596
+    totalSize: 42136
   - path: C:/Users/pawel/Documents/VRChat Contento/VRC_Kosteczka/customscene2.vrcw/BuildPlayer-VRC_Kosteczka.sharedAssets
     role: SharedAssets
     id: 1
-    totalSize: 2102976
+    totalSize: 443792
   - path: C:/Users/pawel/Documents/VRChat Contento/VRC_Kosteczka/customscene2.vrcw
     role: AssetBundle
     id: 2
-    totalSize: 97446
+    totalSize: 76707
   - path: C:/Users/pawel/Documents/VRChat Contento/VRC_Kosteczka/customscene2.vrcw.manifest
     role: AssetBundleTextManifest
     id: 3
-    totalSize: 1284
+    totalSize: 1375
   - path: C:/Users/pawel/Documents/VRChat Contento/VRC_Kosteczka/VRC_Kosteczka/CAB-374665dba2b27effcf83e5be1ac73e17
     role: ResourcesFile
     id: 4
@@ -52,200 +52,63 @@ BuildReport:
   - path: C:/Users/pawel/Documents/VRChat Contento/VRC_Kosteczka/VRC_Kosteczka.manifest
     role: AssetBundleTextManifest
     id: 6
-    totalSize: 144
+    totalSize: 145
   m_BuildSteps:
   - stepName: Build Asset Bundles
-    durationTicks: 138910173
+    durationTicks: 166731809
     depth: 0
     messages: []
   - stepName: Calculate asset bundles to be built
-    durationTicks: 36420
+    durationTicks: 418200
     depth: 1
     messages: []
   - stepName: Compile scripts
-    durationTicks: 13462527
+    durationTicks: 29741050
     depth: 1
     messages: []
   - stepName: Build player
-    durationTicks: 67788587
+    durationTicks: 66231337
     depth: 1
     messages: []
   - stepName: Prepare assets for target platform
-    durationTicks: 88888
+    durationTicks: 77540
     depth: 2
     messages: []
   - stepName: Prepare splash screen
-    durationTicks: 6
+    durationTicks: 5
     depth: 2
     messages: []
   - stepName: Building scenes
-    durationTicks: 40273648
+    durationTicks: 55914417
     depth: 2
     messages: []
   - stepName: Building scene Assets/Scenes/VRC_Kosteczka.unity
-    durationTicks: 40273631
+    durationTicks: 55914387
     depth: 3
     messages: []
   - stepName: Writing asset files
-    durationTicks: 17108281
+    durationTicks: 1611575
     depth: 2
     messages: []
   - stepName: Packaging assets - archive:/BuildPlayer-VRC_Kosteczka/BuildPlayer-VRC_Kosteczka.sharedAssets
-    durationTicks: 17101061
+    durationTicks: 1599642
     depth: 3
     messages: []
   - stepName: Creating compressed player package
-    durationTicks: 1557490
+    durationTicks: 771322
     depth: 2
     messages: []
   - stepName: Postprocess built player
-    durationTicks: 91899
+    durationTicks: 43898
     depth: 2
     messages: []
   m_Appendices:
-  - {fileID: 4282348396316355478}
-  - {fileID: 1126397073733942166}
-  - {fileID: 3324437309521967546}
-  - {fileID: 4190729889480036702}
-  - {fileID: 1126497842208794518}
---- !u!1126 &1126397073733942166
-PackedAssets:
-  m_File: 1
-  m_ShortPath: BuildPlayer-VRC_Kosteczka.sharedAssets
-  m_Overhead: 52491
-  m_Contents:
-  - fileID: 1
-    classID: 150
-    packedSize: 37
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: 
-  - fileID: 2
-    classID: 142
-    packedSize: 140
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: 
-  - fileID: 3
-    classID: 21
-    packedSize: 904
-    sourceAssetGUID: 774fb2efcf5a06e4ebb09ced855a11c1
-    buildTimeAssetPath: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Materials/Prototyp_Material_1.mat
-  - fileID: 4
-    classID: 21
-    packedSize: 936
-    sourceAssetGUID: b0b4de3bd6e976e4f8b3adc6e72377ed
-    buildTimeAssetPath: Assets/Thirdparty/Gridbox Prototype Materials/Resources/Materials/Prototype
-      Grid/Prototype_512x512_Blue3.mat
-  - fileID: 5
-    classID: 21
-    packedSize: 936
-    sourceAssetGUID: 79f64ed6f5d6d374d91c3a0af4070258
-    buildTimeAssetPath: Assets/Thirdparty/Gridbox Prototype Materials/Resources/Materials/Prototype
-      Grid/Prototype_512x512_Green1.mat
-  - fileID: 6
-    classID: 21
-    packedSize: 936
-    sourceAssetGUID: 17c44fb3e5be9644586a0728a5f5a386
-    buildTimeAssetPath: Assets/Thirdparty/Gridbox Prototype Materials/Resources/Materials/Prototype
-      Grid/Prototype_512x512_Grey3.mat
-  - fileID: 7
-    classID: 28
-    packedSize: 699168
-    sourceAssetGUID: 183cc34fb39cd6e48854ccb835b53869
-    buildTimeAssetPath: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Textures/proto_1.png
-  - fileID: 8
-    classID: 28
-    packedSize: 349672
-    sourceAssetGUID: 4967dfcee94bddd4ba1430cb6fa1f304
-    buildTimeAssetPath: Assets/Thirdparty/Gridbox Prototype Materials/Resources/Textures/Prototype
-      Grid/prototype_512x512_green1.png
-  - fileID: 9
-    classID: 28
-    packedSize: 349672
-    sourceAssetGUID: b6fc60785b6a795478135ce6f7712c5a
-    buildTimeAssetPath: Assets/Thirdparty/Gridbox Prototype Materials/Resources/Textures/Prototype
-      Grid/prototype_512x512_blue3.png
-  - fileID: 10
-    classID: 28
-    packedSize: 349672
-    sourceAssetGUID: d9c0dd5cdac07b145be73329e489869a
-    buildTimeAssetPath: Assets/Thirdparty/Gridbox Prototype Materials/Resources/Textures/Prototype
-      Grid/prototype_512x512_grey3.png
-  - fileID: 11
-    classID: 43
-    packedSize: 3380
-    sourceAssetGUID: 08258afcf0b38f34a93780d9aac149f8
-    buildTimeAssetPath: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Stairs/PTK_Stairs_Small.fbx
-  - fileID: 12
-    classID: 43
-    packedSize: 1240
-    sourceAssetGUID: 5e97430da0fcae442af8cdb8fe92482b
-    buildTimeAssetPath: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Medium_5.fbx
-  - fileID: 13
-    classID: 43
-    packedSize: 1232
-    sourceAssetGUID: 63dfb7dd96b451f478689f88b0d0a655
-    buildTimeAssetPath: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Cuboids/PTK_Cuboid_3.fbx
-  - fileID: 14
-    classID: 43
-    packedSize: 1232
-    sourceAssetGUID: 6cfb80454aee73840b7e1a3bb551ea1b
-    buildTimeAssetPath: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Cuboids/PTK_Cuboid_5.fbx
-  - fileID: 15
-    classID: 43
-    packedSize: 1240
-    sourceAssetGUID: 890ff1a3dcaf00d43ae8d85b005c92d0
-    buildTimeAssetPath: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Medium_3.fbx
-  - fileID: 16
-    classID: 43
-    packedSize: 3100
-    sourceAssetGUID: d6b4f636666d42c4fbb8b66461b80bef
-    buildTimeAssetPath: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_Door_Medium.fbx
-  - fileID: 17
-    classID: 43
-    packedSize: 1228
-    sourceAssetGUID: d6b4f636666d42c4fbb8b66461b80bef
-    buildTimeAssetPath: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_Door_Medium.fbx
-  - fileID: 18
-    classID: 48
-    packedSize: 135540
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 19
-    classID: 48
-    packedSize: 133664
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 20
-    classID: 115
-    packedSize: 96
-    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
-    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCCore-Editor.dll
-  - fileID: 21
-    classID: 115
-    packedSize: 108
-    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
-    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
-  - fileID: 22
-    classID: 115
-    packedSize: 88
-    sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
-    buildTimeAssetPath: Assets/Udon/UdonBehaviour.cs
-  - fileID: 23
-    classID: 115
-    packedSize: 128
-    sourceAssetGUID: bf61d954ecb803046953c666facfb904
-    buildTimeAssetPath: Assets/Udon/ProgramSources/SerializedUdonProgramAsset.cs
-  - fileID: 24
-    classID: 258
-    packedSize: 40
-    sourceAssetGUID: 64eb142c78493ce4491a1a5a3cbb0a77
-    buildTimeAssetPath: Assets/Scenes/VRC_Kosteczka/LightingData.asset
-  - fileID: 25
-    classID: 114
-    packedSize: 16096
-    sourceAssetGUID: 60925f63001d66843884a525c7895573
-    buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
---- !u!1126 &1126497842208794518
+  - {fileID: 4282348398287117958}
+  - {fileID: 1126746087318022838}
+  - {fileID: 3324437310154980464}
+  - {fileID: 4190729890037651060}
+  - {fileID: 1126573367785638102}
+--- !u!1126 &1126573367785638102
 PackedAssets:
   m_File: 4
   m_ShortPath: CAB-374665dba2b27effcf83e5be1ac73e17
@@ -261,7 +124,78 @@ PackedAssets:
     packedSize: 88
     sourceAssetGUID: 00000000000000000000000000000000
     buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
---- !u!382020655 &3324437309521967546
+--- !u!1126 &1126746087318022838
+PackedAssets:
+  m_File: 1
+  m_ShortPath: BuildPlayer-VRC_Kosteczka.sharedAssets
+  m_Overhead: 45903
+  m_Contents:
+  - fileID: 1
+    classID: 150
+    packedSize: 37
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 2
+    classID: 142
+    packedSize: 140
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 3
+    classID: 21
+    packedSize: 800
+    sourceAssetGUID: c22777d6e868e4f2fb421913386b154e
+    buildTimeAssetPath: Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat
+  - fileID: 4
+    classID: 28
+    packedSize: 174888
+    sourceAssetGUID: 6344bf96fbda94141a525046d088fb23
+    buildTimeAssetPath: Packages/com.unity.probuilder/Content/Resources/Textures/GridBox_Default.png
+  - fileID: 5
+    classID: 48
+    packedSize: 133664
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 6
+    classID: 48
+    packedSize: 71700
+    sourceAssetGUID: 1ccecd9b89b8a4f14bfb64f29ddfcc81
+    buildTimeAssetPath: Packages/com.unity.probuilder/Content/Shader/StandardVertexColor.shader
+  - fileID: 7
+    classID: 115
+    packedSize: 96
+    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCCore-Editor.dll
+  - fileID: 8
+    classID: 115
+    packedSize: 108
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 9
+    classID: 115
+    packedSize: 88
+    sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
+    buildTimeAssetPath: Assets/Udon/UdonBehaviour.cs
+  - fileID: 10
+    classID: 115
+    packedSize: 104
+    sourceAssetGUID: bb977b126bc1b4f15813dcf9da9bb600
+    buildTimeAssetPath: Packages/com.unity.probuilder/Runtime/Core/PolyShape.cs
+  - fileID: 11
+    classID: 115
+    packedSize: 128
+    sourceAssetGUID: bf61d954ecb803046953c666facfb904
+    buildTimeAssetPath: Assets/Udon/ProgramSources/SerializedUdonProgramAsset.cs
+  - fileID: 12
+    classID: 258
+    packedSize: 40
+    sourceAssetGUID: 64eb142c78493ce4491a1a5a3cbb0a77
+    buildTimeAssetPath: Assets/Scenes/VRC_Kosteczka/LightingData.asset
+  - fileID: 13
+    classID: 114
+    packedSize: 16096
+    sourceAssetGUID: 60925f63001d66843884a525c7895573
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
+--- !u!382020655 &3324437310154980464
 PluginBuildInfo:
   m_RuntimePlugins:
   - OVRPlugin
@@ -321,12 +255,12 @@ PluginBuildInfo:
   - UnityEditor.TestRunner
   - VRC.Udon.EditorBindings
   - UnityEditor.Timeline
---- !u!641289076 &4190729889480036702
+--- !u!641289076 &4190729890037651060
 AudioBuildInfo:
   m_IsAudioDisabled: 0
   m_AudioClipCount: 0
   m_AudioMixerCount: 0
---- !u!668709126 &4282348396316355478
+--- !u!668709126 &4282348398287117958
 BuiltAssetBundleInfoSet:
   bundleInfos:
   - bundleName: customscene2.vrcw
